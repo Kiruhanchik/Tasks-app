@@ -1,0 +1,140 @@
+@font-face {
+  font-family: Roboto;
+  src: url('./fonts/Roboto-Medium.ttf');
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+header {
+  font-size: 150%;
+  display: inline-block;
+  border-bottom: 1.5px solid black;
+  padding-bottom: 5px;
+  padding-top: 1%;
+}
+
+main {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+p {
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+#add {
+  width: 20%;
+  height: 25px;
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: rgb(199, 199, 244);
+  transition: 0.3s;
+  margin-top: 1%;
+  font-size: 100%;
+  box-shadow: 3px 3px 6px rgb(159, 159, 159);
+}
+
+input {
+  width: 20%;
+  height: 25px;
+  margin-top: 1%;
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: rgb(247, 247, 247);
+  box-shadow: 3px 3px 6px rgb(159, 159, 159);
+}
+
+#add:hover {
+  background-color: rgb(136, 136, 250);
+}
+
+#add:active {
+  transform: scale(0.93);
+  border: 4px solid black;
+}
+
+#task {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #f45c0b 0%, #d8ca0b 100%);
+  border: 2px solid black;
+  margin-bottom: 1%;
+  box-shadow: 2px 2px 6px rgb(48, 48, 48);
+  font-weight: 900;
+  transition: 0.3s;
+}
+
+#task:hover {
+  box-shadow: 3px 3px 7px rgb(48, 48, 48);
+}
+
+#name {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: auto;
+  height: auto;
+}
+
+#edit {
+  width: 5%;
+  cursor: pointer;
+}
+
+#time {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#delete {
+  width: 5%;
+  margin-left: 4%;
+  cursor: pointer;
+}
+
+#done {
+  width: 5%;
+  margin-left: 4%;
+  cursor: pointer;
+}
+
+#params {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#sort {
+  width: 20%;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: rgba(17, 231, 78, 0.562);
+  transition: 0.3s;
+  margin-top: 1%;
+  font-size: 100%;
+  box-shadow: 3px 3px 6px rgb(159, 159, 159);
+}
+
+#sort:hover {
+  background-color: rgba(236, 21, 96, 0.594);
+}
+
+#sort:active {
+  transform: scale(0.93);
+  border: 4px solid black;
+}
